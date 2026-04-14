@@ -1,5 +1,4 @@
-=======
-# 🚀 Terraform AWS EC2 with Remote Backend (S3 + DynamoDB)
+# Terraform AWS EC2 with Remote Backend (S3 + DynamoDB)
 
 This project demonstrates provisioning AWS infrastructure using **Terraform** with a **production-style remote backend configuration**.
 
@@ -13,7 +12,7 @@ It includes:
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository showcases how to:
 
@@ -25,7 +24,7 @@ This repository showcases how to:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 Terraform → AWS Provider →
 • EC2 Instance
@@ -51,7 +50,7 @@ terraform-aws-ec2-remote-backend/
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 * Terraform installed
 * AWS account
@@ -61,7 +60,7 @@ terraform-aws-ec2-remote-backend/
 
 ---
 
-## 🔐 Remote Backend Configuration
+## Remote Backend Configuration
 
 The project uses:
 
@@ -85,7 +84,7 @@ terraform {
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1️⃣ Initialize Terraform
 
@@ -113,7 +112,7 @@ terraform destroy
 
 ---
 
-## 🔒 State Locking Verification
+## State Locking Verification
 
 This project includes DynamoDB-based state locking to prevent:
 
@@ -126,7 +125,7 @@ Locking behavior was tested using parallel Terraform operations.
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 * Infrastructure as Code (IaC)
 * Terraform backend configuration
@@ -138,7 +137,7 @@ Locking behavior was tested using parallel Terraform operations.
 
 ---
 
-## ⚠️ Security Note
+## Security Note
 
 The following files are excluded from version control:
 
@@ -151,7 +150,7 @@ Never commit Terraform state files to GitHub.
 
 ---
 
-## 🎯 Learning Outcome
+## Learning Outcome
 
 Through this project, the following skills were implemented:
 
@@ -163,7 +162,7 @@ Through this project, the following skills were implemented:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Bhoopendra Singh Bhadauria**
 
@@ -175,4 +174,3 @@ Focused on Infrastructure Automation, Cloud, and Production-Grade IaC Practices.
 ## 📜 License
 
 This project is created for educational and learning purposes.
->>>>>>> 9b9927b (Initial commit - Terraform AWS EC2 with Remote Backend)
